@@ -1,0 +1,72 @@
+body{
+    background-size: 100%;
+    background-image: linear-gradient(180deg,rgb(63, 168, 213) 0%,rgb(63, 208, 213) 25%,rgb(10, 160, 202) 50%,rgb(29, 171, 210) 75%);
+    background-repeat: no-repeat;
+}
+.menu{
+    
+    display: flex;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 100px;
+    opacity: 0.8;
+    width: 200px;
+    
+    
+}
+ 
+
+a:hover{
+    color: darkcyan;
+    opacity: 1;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;}
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h
+{
+    color: rgb(125, 24, 24);
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+p
+{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ol{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table
+{
+    margin-left: 25%;
+}
+
+table, td, th
+{
+      border-collapse: collapse;
+      padding: 10px; 
+}
+table
+{
+    border-width: 6px;
+}
+
